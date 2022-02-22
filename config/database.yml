@@ -1,0 +1,9 @@
+production:
+  <<: *default
+  pool: 3
+  adapter: mysql2
+  encoding: utf8mb4
+  database: sensitive_information
+  username: sysadmin
+  password: 4keNHjnqf5hJ!qxTnFAt!
+  host: 'sensitive_information-mysql-prod.random_url.eu-west-2.rds.amazonaws.com'
